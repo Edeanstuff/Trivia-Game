@@ -30,7 +30,7 @@ function timerGo() {
         results();
     } else {
         timer--;
-        $("#timer").html("Time Left: " + timer + ".");
+        $("#timer").html("Time Left: " + timer + "");
     }
 }
     function check1() {
