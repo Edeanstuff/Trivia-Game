@@ -16,6 +16,8 @@ function start() {
     $("#pregame").removeClass("display");
     $("#start").addClass("display");
     $("#timer").html("Time Left: " + timer + ".");
+    answersRight = 0;
+    answersWrong = 0;
     
 }
     $("#start").on("click", function() {
@@ -221,6 +223,7 @@ function timerGo() {
             }
             function results() {
                 clearTimeout(timerSpeed);
+                checks();
                 $("#question1").html("");
                 $("#question2").html("");
                 $("#question3").html("");
@@ -239,7 +242,8 @@ function timerGo() {
                 $("#choices8").html("");
                 $("#choices9").html("");
                 $("#finish").html("");
-                
+                $("#timer").html("Answers right: " + answersRight +
+                "<br> Answers Wrong: " + answersWrong + "");
             }
         $("#finish").on("click", function() {
             checks();
