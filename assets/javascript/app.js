@@ -246,7 +246,6 @@ function timerGo() {
                 "<br> Answers Wrong: " + answersWrong + "");
             }
         $("#finish").on("click", function() {
-            checks();
             results();
             $("#timer").html("Answers right: " + answersRight +
                 "<br> Answers Wrong: " + answersWrong + "");
