@@ -1,0 +1,36 @@
+.back {
+    position:relative;
+    top:5vh;
+    background-color: gold;
+    text-align:center;
+    border:10px black solid;
+}
+.text {
+    font-size: 35px;
+    font-family: "Galada";
+}
+.display {
+    display: none;
+}
+.submit {
+    cursor: pointer;
+    font-family: "Eagle Lake";
+    font-size: 27px;
+}
+.headers {
+    font-size: 69px;
+    font-family: "Eagle Lake";
+}
+.answers {
+    font-size: 27px;
+    color: purple;
+    font-family:"Indie Flower"
+}
+.timers {
+    font-size: 55px;
+    border:10px purple solid;
+    font-family: "Eagle Lake";
+}
+.backimage {
+    background-image: url("http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/lakers/images/wallpapers/desktop/images/large/players/set1_bryant.jpg")
+}
