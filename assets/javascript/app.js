@@ -15,7 +15,7 @@ var answer8;
 function start() {
     $("#pregame").removeClass("display");
     $("#start").addClass("display");
-    $("#timer").html("Time Left: " + timer + ".");
+    $("#timer").html("Time Left: " + timer + "");
     answersRight = 0;
     answersWrong = 0;
     
